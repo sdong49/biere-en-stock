@@ -12,7 +12,7 @@ Pour réaliser notre site, j’ai utilisé plusieurs nouvelles technologies web.
 Connexion
 
     •	Site Bière en stock :
-        o	http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/
+        o	http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere-en-stock/
 
     •	Portail d’administration
         o	URL : http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/auth
