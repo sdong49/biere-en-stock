@@ -34,7 +34,7 @@
             include 'app/views/template/footer.php';
         ?>
 
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
         <script>
             function asc(){
                 $.ajax({

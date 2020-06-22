@@ -39,7 +39,7 @@ Fabriqué avec
     JS :
     •	Utilisation de jquery 
     •	Requête http Ajax avec jquery : Sorting « Liste des messages client » par Nom, 
-        source app/views/admin/adminMessage.php, ligne 42
+        source app/views/admin/adminMessage.php, ligne 38
     •	Api rest : Page « Formulaire de contact » saisie dynamique de champ  « Adresse », source app/views/contact.php
     •	Gestion d'évènements autres que le click souris : Page « Formulaire de contact » saisie dynamique de champ 
         « Adresse », source app/views/contact.php
@@ -53,3 +53,6 @@ Fabriqué avec
     SQL:
     •	Requêtes SELECT avec INNER JOIN 
     •	Crud complet (CREATE, READ, UPDATE, DELETE)
+    
+
+    Rewrite URL
