@@ -1,0 +1,5 @@
+  RewriteEngine On
+  
+    RewriteRule ^([A-Za-z]+)/categorie/([0-9]+)?$ index.php?action=$1&categorie=$2
+    RewriteRule ^([A-Za-z]+)/([0-9]+)?$  index.php?action=$1&id=$2
+    RewriteRule ^([A-Za-z]+)/?$ index.php?action=$1

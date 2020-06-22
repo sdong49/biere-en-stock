@@ -1,0 +1,17 @@
+{
+    "name": "kercode4/biere_en_stock",
+    "description": "projet MVC",
+    "authors": [
+        {
+            "name": "Saiyin DONG",
+            "email": "dongsaiyin26@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Projet\\":"./app"
+        }
+    },
+    "require": {}
+}
