@@ -1,0 +1,56 @@
+.container_inscription{
+    width: 80%;
+    margin:20px auto 0;
+
+}
+.titre{
+    background-color:rgb(196, 136, 38) ;
+    font-size: 2em;
+    text-align: center;
+    height: 100px;
+    padding-top:60px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-weight: 500;
+}
+
+h2{      
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.form-group .form-control{
+    height:30px ;
+    width:100%;
+    margin: 10px 0 20px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+}
+
+.form-inscription .btn{
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    width: 100px;
+    height: 40px;
+    outline-style: none ;
+    border: 0px;
+    border-radius: 0.25rem;
+    display: block;
+    margin: 20px auto 0;
+    background-color: rgb(196, 136, 38);
+}
+
+.form-inscription{    
+    width: 40%;
+    margin: 20px auto 50px;
+    
+}
+

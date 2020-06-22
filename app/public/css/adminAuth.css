@@ -1,0 +1,57 @@
+
+.admin_login{
+    
+    width: 100%;   
+}
+
+.login{
+    margin: 180px auto 0;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    width: 540px;  
+}
+
+.login-header {   
+    background-color:  rgb(60, 60, 60);
+    height: 75px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.login-header h4{   
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.login-body{
+    padding: 30px;
+}
+
+.login-body form label{
+    display: inline-block;
+    width: 150px;    
+}
+
+.login-body form input{
+    width: 300px;
+    height: 30px;
+}
+
+.login-body form .bouton-connecter{
+    display: inline-block;
+    background-color:  rgb(60, 60, 60);
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 1em;
+    margin-left:100px;
+    margin-top: 30px; 
+    font-family: 'Montserrat', sans-serif; 
+    color: rgb(255, 255, 255);
+}
+
+
+#erreuremailins, #erreurpasswordins{
+    margin-left: 155px;
+}
