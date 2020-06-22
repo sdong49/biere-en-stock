@@ -20,25 +20,25 @@
                     <article class="type">
                         <figure>
                             <img src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/images/bouteille.png" alt="bière en bouteille" class="photo-titre">                       
-                            <a href="index.php?action=produit&categorie=1"class="bouton-info"><div class="mask">Bouteilles</div></a>                   
+                            <a href="/stagiaires/saiyin-dong/biere_en_stock/produit/categorie/1"class="bouton-info"><div class="mask">Bouteilles</div></a>                   
                         </figure>  
                     </article>
                     <article class="type">
                             <figure>
                                 <img src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/images/fut.png" alt="fût de bière" class="photo-titre">                       
-                                <a href="index.php?action=produit&categorie=2"class="bouton-info"><div class="mask">Fûts</div></a>                  
+                                <a href="/stagiaires/saiyin-dong/biere_en_stock/produit/categorie/2"class="bouton-info"><div class="mask">Fûts</div></a>                  
                             </figure>  
                     </article>
                     <article class="type">
                             <figure>
                                 <img src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/images/assortiment.png" alt="assortoment de bière" class="photo-titre">                       
-                                <a href="index.php?action=produit&categorie=4"class="bouton-info"><div class="mask">Assortiments</div></a>                   
+                                <a href="/stagiaires/saiyin-dong/biere_en_stock/produit/categorie/4"class="bouton-info"><div class="mask">Assortiments</div></a>                   
                             </figure>  
                     </article>               
                     <article class="type">
                             <figure>
                                 <img src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/images/tireuse.png" alt="tireuse à bière" class="photo-titre">                       
-                                <a href="index.php?action=produit&categorie=5"class="bouton-info"><div class="mask">Tireuse</div></a>                    
+                                <a href="/stagiaires/saiyin-dong/biere_en_stock/produit/categorie/5"class="bouton-info"><div class="mask">Tireuse</div></a>                    
                             </figure>  
                     </article>
                 </div>
