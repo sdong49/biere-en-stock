@@ -48,7 +48,7 @@ nav{
     width: 100%;   
 }
 
-.login{
+.admin_login .login{
     margin: 180px auto 0;
     box-shadow: 0 0 10px rgb(0, 0, 0);
     width: 540px;  
@@ -236,12 +236,70 @@ nav{
     display: block;
     margin: 50px auto 0;
     background-color: rgb(60, 60, 60);
-
     color: rgb(255, 255, 255);
-
+}
+/*--------page messages----*/
+.admin_message{
+    width: 80%;
+    margin: 0 auto;
 }
 
+.test{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
 
+.titre{
+    text-align: center;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 2em;
+    padding-top:55px ;
+    margin-bottom: 30px;
+    border-bottom: solid 2px rgb(60,60,60);
+}
+table{
+    width: 100%;
+    word-break: break-all;
+}
+.info{
+    width: 11%;        
+}
+
+th{
+    background-color: tan;
+    height: 50px;
+    
+}
+
+th span{
+    color:rgb(70, 70, 70);
+    font-size: 1.5em;
+}
+
+th span:hover{
+    cursor: pointer;
+    color: rgb(192, 13, 29)
+} 
+
+th .left{
+    margin-right: 10px;
+}
+
+th .right{
+    margin-left: 10px;
+}
+
+td{
+    min-height: 30px;
+    border-bottom:solid 1px tan;
+}
+th,td{
+    font-size: 0.95em;
+}
 
 /*-------footer----------*/
 .pied-de-page{
@@ -329,6 +387,11 @@ nav{
     .form_article{
         font-size: 0.9em;
         width: 70%;
+    }
+
+    /*---------page messages-----*/
+    th,td{    
+        font-size:0.8em;   
     }
 
     /*--------footer----*/
@@ -422,6 +485,14 @@ nav{
     .form_article{
         font-size: 0.9em;
         width: 80%;
+    }
+
+    /*---------page messages-----*/
+    .titre{
+        font-size: 1.5em;
+    }
+    th,td{
+        font-size: 0.7em;
     }
 
       /*--------footer----*/

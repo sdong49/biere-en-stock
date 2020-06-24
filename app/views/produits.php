@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-    <base href="<=basePath>">
         <title>Nos produits</title>
 
 <?php

@@ -35,6 +35,7 @@ Fabriqué avec
     •	Tous les mediaqueries 
     •	Les animations : page d’accueil section « Nos produits », source app/public/css/style.css, ligne 252 
     •	Mise en page en flexbox
+
     
     JS :
     •	Utilisation de jquery 

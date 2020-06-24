@@ -1,5 +1,9 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Gestion d'article</title>
 <?php
-    include 'app/views/template/headAdmin.php';    
+    include 'app/views/template/head.php';    
     include 'app/views/template/headerAdmin.php';
 ?>
     <main class="admin_article">
