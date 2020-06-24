@@ -430,6 +430,85 @@ main{
 
 /*----------fin de la page produit--------*/
 
+/*--------------------------------------page article----------------------*/
+.description_article{
+    display: flex;
+    margin-top: 30px;
+    padding: 20px 0;
+    
+    background-color: rgb(245, 245, 245);
+}
+
+.img_article{
+    width: 35%;
+}
+
+.img_article img{
+    width: 100%;
+    box-shadow: 8px 8px 4px rgb(220, 220, 220);
+}
+
+.prospectus h2{
+    margin:10px 0;
+   
+    text-align: left;
+}
+
+.prospectus{
+    width: 62%;
+    margin-left: 60px;
+    font-size: 0.9em;
+}
+
+.prospectus table{
+    margin-top: 10px;
+}
+
+.prospectus table td{
+    padding-right: 70px;
+    padding-top: 5px;
+}
+
+.notices{
+    margin: 30px auto;
+}
+
+.notices .notices_hd{
+    display: flex;
+    padding-bottom: 8px;
+    border-bottom: solid 2px rgb(150, 150, 150);  
+    font-weight: bold;
+}
+
+.notices .notices_hd li{
+    cursor: pointer;
+    width: 150px;
+    color: rgb(200, 200, 200);
+}
+
+.notices .notices_hd li:hover{
+    color: rgb(73, 73, 73);   
+}
+
+.notices .notices_hd .active{
+    color: rgb(196, 136, 38);
+}
+
+.notices .notices_bd{
+    margin-top: 10px;
+    box-shadow: 8px 8px 4px rgb(220, 220, 220);
+    padding-top: 5px;
+}
+
+.notices .notices_bd li{
+    padding: 15px 10px;
+    display: none;
+}
+
+.notices .notices_bd .active{
+    display: block;
+}
+
 /*-------------------------------------page contact-----------------------------------------------*/
 .contact{
     width: 100%;
@@ -768,6 +847,27 @@ main{
     .bloc_articles_produit{
         width: 48%;      
     }
+    /*-------------fin de la page produit-----------*/
+    /*--------------------page article--------------*/
+    .description_article{
+        display: block;
+    }
+    .img_article{
+        width: 100%;
+        text-align: center;
+    }
+
+    .img_article img{
+        width: 400px;   
+    }
+
+    .prospectus{
+        margin-top: 30px;
+        margin-left: 0;
+        width: 100%;    
+    }
+
+    /*---------------fin de la page article------------*/
    
 
     /*--------footer----*/
@@ -895,6 +995,28 @@ main{
         width: 100%;     
     }
     /*-------------fin de la page produit-------------*/
+
+    /*------------------page article------------------*/
+    .description_article{
+        display: block;
+    }
+
+    .img_article{
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    .img_article img{
+        width: 100%;   
+    }
+
+    .prospectus{
+        margin-top: 30px;
+        margin-left: 0;
+        width: 100%;
+    }
+    /*-------------------fin de la page article-------------*/
 
 
     /*--------footer----*/

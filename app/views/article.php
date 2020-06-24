@@ -11,7 +11,7 @@
         <!-----contenue de la page article----->
         <main class="container"> 
             <!------ la première section "description" de l'article-->    
-            <section class="description">
+            <section class="description_article">
                 <div class="img_article">
                     <img src="<?php echo $image; ?>" alt="bière">
                 </div>
