@@ -7,27 +7,27 @@
     include 'app/views/template/headerAdmin.php';
 
 ?>
-    <main class="admin_article_edition">
+    <main class="admin_article">
         <h1 class="titre">Edition de l'article</h1>
         <a href="index.php?action=admin" class="bouton">Retour</a>
         <h2 class="titre_edition"><?php echo $produit['nom']; ?></h2>
-        <form action="" class="form_edition" method="post">
-            <div class="champ_edition">
+        <form action="" class="form_article" method="post">
+            <div class="champ_article">
                 <label for="title">Title</label><br>
                 <input type="text" name="title" value="<?php echo $produit['nom']; ?>" >
             </div>
 
-            <div class="champ_edition">
+            <div class="champ_article">
                 <label for="description">Description</label><br>
                 <textarea name="description" ><?php echo $produit['description']; ?></textarea>
             </div>
 
-            <div class="champ_edition">
+            <div class="champ_article">
                 <label for="image">Image</label><br>
                 <input type="text" name="image" value="<?php echo $produit['image']; ?>" >
             </div>
 
-            <div class="champ_edition">
+            <div class="champ_article">
                 <label for="categorie">Catégorie</label>
                 <select name="categorie" class="selection_gauche">
                     <?php foreach($liste_categories as $categorie){ ?>
@@ -40,7 +40,7 @@
                 </select>
             </div>
 
-            <div class="champ_edition">
+            <div class="champ_article">
                 <label for="brasseur">Brasseur</label>
                 <select name="brasseur">
                     <?php foreach($liste_brasseurs as $brasseur){ ?>
@@ -53,7 +53,7 @@
                 </select>
             </div>
             
-            <div class="champ_edition">
+            <div class="champ_article">
                 <label for="contenance">Contenance</label>
                 <select name="contenance" class="selection_gauche">
                     <?php foreach($liste_contenances as $contenance){ ?>
@@ -65,12 +65,12 @@
                     <?php } ?>
                 </select>
             </div>
-            <div class="champ_edition">
+            <div class="champ_article">
                 <label for="degre">Degré</label>
                 <input type="text" name="degre" class="degre" value="<?php echo $produit['degre']; ?>">
             </div>
             <input type="hidden" name="id_produit" value="<?php echo $produit['id']; ?>">
-            <button type="submit" class="envoi_edition">Envoyer</button>
+            <button type="submit" class="envoi_article">Envoyer</button>
         </form>
       
     </main>
