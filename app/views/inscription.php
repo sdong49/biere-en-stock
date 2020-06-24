@@ -8,7 +8,7 @@
     include 'template/header.php';
 ?>
         <main class="container_inscription">
-            <h1 class="titre ">Créer un compte</h1>
+            <h1 class="titre_instription">Créer un compte</h1>
             <form method="post" action="app/models/RegisterManager.php" class="form-inscription" >
                 <h2>Informations du compte</h2>
                 <div class="form-group">
@@ -18,7 +18,7 @@
 
                 <div class="form-group">
                     <label for="address">Adresse</label><br> 
-                    <input type="text" name="address" class="form-control" id="address" onkeyup="getAdresse()"/>
+                    <input type="text" name="address" class="form-control" id="address"/>
                 </div>
                 <ul id="adresse_liste">      
                 </ul>

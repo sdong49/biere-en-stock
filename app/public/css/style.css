@@ -338,7 +338,277 @@ main{
     padding: 10px 0;
 }
 
+/*-----------------------------------page produit----------------------------------*/
+/*-------menu catégorie-----*/
+.sousmenu{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin: 25px auto 0 auto;
+    height: 30px;
+   
+}
 
+.sousmenu li{
+    padding: 5px 10px;
+    border:2px solid rgb(240, 240, 240);
+    border-radius:8px 8px 0 0;
+    -webkit-border-radius:8px 8px 0 0;
+    -moz-border-radius:8px 8px 0 0;
+    -ms-border-radius:8px 8px 0 0;
+    -o-border-radius:8px 8px 0 0;
+}
+
+.sousmenu .btn_cat{
+    cursor: pointer;
+    width: 150px;
+    color:rgb(60, 60, 60);
+    
+}
+
+
+.sousmenu .btn_cat:hover{
+
+    color: rgb(196, 136, 38);
+    
+}
+
+/*----la section catégorie----*/
+.container .categorie{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(246, 246, 246);   
+}
+
+.container .categorie_r{
+    width: 50%;
+    padding-top: 15px;
+    padding-right: 10px;
+    color: rgb(73, 75, 75);
+}
+
+.container .categorie_r p{
+    font-size: 0.9em;    
+}
+
+/*----la section des articles-----*/
+
+.articles_produit{
+    width: 100%;
+    justify-content: space-between;
+    margin: 30px auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles_produit:after{
+    content: "";
+    
+    width:48%;
+
+}
+
+.bloc_articles_produit{
+    box-shadow: 8px 8px 4px rgb(220, 220, 220);
+    width: 22%;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bloc_articles_produit img{
+    width: 100%;
+}
+
+.bloc_articles_produit a{
+    color: rgb(100, 100, 100);
+
+}
+
+/*----------fin de la page produit--------*/
+
+/*-------------------------------------page contact-----------------------------------------------*/
+.contact{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    color: rgb(60, 60, 60);
+}
+
+.titre{
+    background-color:rgb(196, 136, 38) ;
+    font-size: 1.8em;
+    text-align: center;
+    height: 100px;
+    padding-top:60px;
+    margin-top: 30px;
+}
+
+.message_succes{
+    background-color: seagreen;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    margin-top: 30px;
+}
+
+.message_non_succes{
+    padding-top: 25px;
+    margin-top: 30px;
+    background-color: rgb(189, 12, 12);
+    height: 45px;
+    color: rgb(255, 255, 255);
+}
+
+.formulaire{
+    margin-top: 30px;
+}
+
+.formulaire fieldset{
+    border:2px dashed rgb(196, 136, 38);
+    padding: 40px 20px;
+    margin-bottom: 15px;
+}
+
+
+.gerne{
+    text-align: center;
+    line-height: 40px;
+}
+
+.gerne label{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.colonnes{
+    display: flex;
+    justify-content: space-between;   
+    margin-left:6px;
+}
+
+.colonnes .colonne{  
+    width: 49%;
+    margin: 5px 10px;  
+}
+
+.colonnes .colonne p{
+    margin-top: 15px; 
+}
+.adresse{
+    margin: 0 15px;   
+    margin-top: 8px; 
+}
+
+
+.message{
+    margin: 10px 20px 0 15px;    
+   
+}
+
+.formulaire label{
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    
+}
+.formulaire .gerne label{
+    width: 20px;
+}
+
+.colonne input{
+    width: 50%;
+    height: 23px;
+}
+
+.formulaire textarea{
+    width: 95%;
+    margin-top: 10px;
+}
+
+.bouton-contact{
+    text-align: center;
+}
+
+.bouton-contact input{
+    width:120px;
+    height:50px;
+    font-size:1em;
+    margin:20px;
+    background-color: rgb(196, 136, 38);
+    border: none;
+    font-weight: bold;
+}
+
+.acces{
+    
+    margin-top:50px;
+    font-size:1.5em;
+}
+
+.acces iframe{
+    width: 100%;
+}
+/*----------fin de page contact-------------*/
+
+/*-----------------------------page inscription----------------------------*/
+.container_inscription{
+    width: 80%;
+    margin:20px auto 0;
+
+}
+.titre_instription{
+    background-color:rgb(196, 136, 38) ;
+    font-size: 2em;
+    text-align: center;
+    height: 100px;
+    padding-top:60px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.form-inscription h2{      
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.form-inscription .form-group .form-control{
+    height:30px ;
+    width:100%;
+    margin: 10px 0 20px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+}
+
+.form-inscription .btn{
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    width: 100px;
+    height: 40px;
+    outline-style: none ;
+    border: 0px;
+    border-radius: 0.25rem;
+    display: block;
+    margin: 20px auto 0;
+    background-color: rgb(196, 136, 38);
+}
+
+.form-inscription{    
+    width: 40%;
+    margin: 20px auto 50px;   
+}
+
+/*-----------fin de la page inscription--------------*/
 
 
 /*-------footer----------*/
@@ -401,7 +671,7 @@ main{
 
 
 /*-------------------Mediaqueries-----------*/
-@media screen and (min-width:480px) and (max-width:768px){
+@media screen and (min-width:576px) and (max-width:992px){
 
 /*---------haut de page------*/
     .haut{
@@ -476,6 +746,28 @@ main{
     .actu{
         width: 48%;   
     }
+
+    /*----------------------------page produit--------------------------*/
+    .sousmenu li{
+        padding: 5px 5px;
+        font-size: 0.9em;
+    }
+
+    .container .categorie{
+        display: block;         
+    }
+
+    .container .categorie_r{
+        width: 100%;    
+    }
+
+    .container .categorie_l{
+        text-align: center;
+    }
+
+    .bloc_articles_produit{
+        width: 48%;      
+    }
    
 
     /*--------footer----*/
@@ -499,68 +791,68 @@ main{
 
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:576px){
 
-/*---------haut de page------*/
-.haut{
-    width: 100%;
-    height: 80px;   
-}
+    /*---------haut de page------*/
+    .haut{
+        width: 100%;
+        height: 80px;   
+    }
 
-.haut .contact-header li{
-    display:block;          
-}
+    .haut .contact-header li{
+        display:block;          
+    }
 
-.nav{
-    display: flex;
-}
+    .nav{
+        display: flex;
+    }
 
-.nav .droite_nav{    
-    display: flex;
-    justify-content:flex-end;    
-}
+    .nav .droite_nav{    
+        display: flex;
+        justify-content:flex-end;    
+    }
 
-.haut_droite_nav{
-    padding-top: 20px;
-}
+    .haut_droite_nav{
+        padding-top: 20px;
+    }
 
-/*------------menuburger----------*/
+    /*------------menuburger----------*/
 
-.nav .menuprincipal{
-    position: relative;  
-    width:10%;
-    padding-top: 20px; 
+    .nav .menuprincipal{
+        position: relative;  
+        width:10%;
+        padding-top: 20px; 
+        
+    }
+
+    .nav .menuprincipal ul li{
+        display: block;
+        line-height: 34px;
+        font-size:1em; 
+    }
+    .nav .menuprincipal .menu-mobile{
+        display: block;
+        margin-left: 10px;
+        
+    }
+    .nav .menuprincipal #menu-mobile:not(:checked),#menu-mobile:checked{
+        position: absolute;
+        left:-9999px;
+    }
+
+    .nav .menuprincipal [type="checkbox"]:checked+label+ul{
+        display: block;
+    }
+
+    .nav .menuprincipal .menu-mobile img{
+        padding-top: 63px;
+        width: 35px;
+    }
     
-}
-
-.nav .menuprincipal ul li{
-    display: block;
-    line-height: 34px;
-    font-size:1em; 
-}
-.nav .menuprincipal .menu-mobile{
-    display: block;
-    margin-left: 10px;
-    
-}
-.nav .menuprincipal #menu-mobile:not(:checked),#menu-mobile:checked{
-    position: absolute;
-    left:-9999px;
-}
-
-.nav .menuprincipal [type="checkbox"]:checked+label+ul{
-    display: block;
-}
-
-.nav .menuprincipal .menu-mobile img{
-    padding-top: 63px;
-    width: 35px;
-}
- 
-.nav .menuprincipal ul{
-    margin-top: -80px;
-    display: none;
-}
+    .nav .menuprincipal ul{
+        margin-top: -80px;
+        display: none;
+    }
 
 
     /*-----produit----*/
@@ -576,6 +868,34 @@ main{
     .actu{
         width: 75%;   
     }
+
+    /*----------------------------------page produit------------------------*/
+    .sousmenu li{
+        padding: 5px 5px;
+        font-size: 0.8em;
+    }
+
+    .container .categorie{
+        display: block;         
+    }
+
+    .container .categorie_r{
+        width: 100%;    
+    }
+
+    .container .categorie_l{
+        text-align: center;
+    }
+
+    .container .categorie_l img{
+        width: 100%
+    }
+
+    .bloc_articles_produit{
+        width: 100%;     
+    }
+    /*-------------fin de la page produit-------------*/
+
 
     /*--------footer----*/
     .pied-de-page{
