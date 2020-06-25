@@ -2,7 +2,7 @@
     <body>     
         <!-------tête de page------->
         <header>
-            <nav>
+            <nav class="nav_admin">
                 <!--logo en SVG-->
                 <div class="logo">
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="260" height="50">

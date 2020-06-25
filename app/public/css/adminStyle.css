@@ -17,7 +17,7 @@ body{
 }
 
 /*----header-------*/
-nav{
+.nav_admin{
     display: flex;
     background-color: rgb(60, 60, 60);
 }
@@ -418,7 +418,7 @@ th,td{
 
 @media screen and (max-width:576px){
     /*-----header-----*/
-    nav{
+    .nav_admin{
         display: block;
     }
 
