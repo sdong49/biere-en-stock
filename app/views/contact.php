@@ -6,9 +6,8 @@
     include 'template/head.php';
     include 'template/header.php';
 ?>
-        <main class="container">
+        <main>
             <!--------------formulaire-------------->
-            <section class="contact">
                 <p class="titre">Formulaire de contact</p>
                 <p>Vous ne trouvez pas la réponse que vous cherchez ? Notre service client est là pour vous aider, de 9h à 18h du lundi au vendredi.</p>
                 <br>
@@ -83,8 +82,7 @@
                 <div class="acces">  
                         <p>Trouvrez-nous sur la carte</p>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.92019771653!2d-2.7750422848950493!3d47.647117579187416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101c1ee7bc3d91%3A0xa622fa4c9bf9c44c!2sLyc%C3%A9e%20G%C3%A9n%C3%A9ral%20et%20technologique%20Alain%20Rene%20Lesage!5e0!3m2!1sfr!2sfr!4v1574709778102!5m2!1sfr!2sfr" width="800" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                    </div>
-            </section>    
+                    </div>    
         </main>
 
         <?php

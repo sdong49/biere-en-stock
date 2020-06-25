@@ -500,12 +500,6 @@ main{
 }
 
 /*-------------------------------------page contact-----------------------------------------------*/
-.contact{
-    width: 100%;
-    max-width: 1250px;
-    margin: auto;
-    color: rgb(60, 60, 60);
-}
 
 .titre{
     background-color:rgb(196, 136, 38) ;
@@ -625,11 +619,6 @@ main{
 /*----------fin de page contact-------------*/
 
 /*-----------------------------page inscription----------------------------*/
-.container_inscription{
-    width: 80%;
-    margin:20px auto 0;
-
-}
 .titre_instription{
     background-color:rgb(196, 136, 38) ;
     font-size: 2em;
@@ -768,11 +757,6 @@ main{
 }
 
 /*----------page administration liste articles--------------*/
-.admin_article{
-    width: 80%;
-    max-width: 1250px;
-    margin: 0 auto;
-}
 
 .titre_admin{
     text-align: center;
