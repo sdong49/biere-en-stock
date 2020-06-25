@@ -3,7 +3,7 @@
     include 'app/views/template/headAdmin.php';    
     include 'app/views/template/headerAdmin.php';
 ?>
-        <main class="admin_article">
+        <main>
             <h1 class="titre_admin">Ajout de l'article</h1>
             <a href="index.php?action=admin" class="bouton_admin">Retour</a>
             <form action="" class="form_article" method="post">
@@ -54,10 +54,8 @@
                     <input type="text" name="degre" class="degre">
                 </div>
                 <input type="hidden" name="ajout_produit" value="true">
-                <button type="submit" class="envoi_article">Envoyer</button>
-                
-            </form>
-        
+                <button type="submit" class="envoi_article">Envoyer</button>              
+            </form>       
         </main>
         <?php
             include 'app/views/template/footer.php';

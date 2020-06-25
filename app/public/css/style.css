@@ -16,6 +16,11 @@ body{
     font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;  
 }
 
+main{
+    width: 80%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
 
 /*la couche gris quand la boite modal apparut*/
 .hidebg{
@@ -28,6 +33,7 @@ body{
     background: rgba(150,150,150,0.5);
     display: none;
 }
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!LA PARTIE VITRINE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 /*--------------------bande haut de la page-----------------------*/
 .haut{
@@ -73,15 +79,13 @@ body{
 /*------la partie gauche du nav "logo"-----*/
 
 .nav .gouche_nav{
-    width:15%; 
-    
+    width:15%;    
 }
 
 /*------la partie droite du nav -----*/
 .nav .droite_nav{
     width: 85%;
-    display: flex;
-    
+    display: flex;   
 }
 
 /*-----menu principal--------*/
@@ -200,12 +204,6 @@ body{
     margin-left: 155px;
 }
 
-main{
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 /*-----------slider----------*/
 
 #wrapper{
@@ -279,7 +277,7 @@ main{
     transform: scale(1.1);
 }
 
-/*-------actualité------------*/
+/*--------page accueil-actualité------------*/
 .session_actu{
     margin-top: 100px;
 }
@@ -300,10 +298,8 @@ main{
     box-shadow: 8px 8px 4px rgb(220, 220, 220);
     width: 23%;
     margin: 30px auto;
-   
+  
 }
-
-
 
  .actu .bloc-actu{   
     text-align: center;
@@ -316,7 +312,6 @@ main{
 .actu .media img{
     width: 100%;   
 }
-
 
 .actu .bloc-actu p{
     width: 90%;
@@ -360,10 +355,8 @@ main{
 .sousmenu .btn_cat{
     cursor: pointer;
     width: 150px;
-    color:rgb(60, 60, 60);
-    
+    color:rgb(60, 60, 60);    
 }
-
 
 .sousmenu .btn_cat:hover{
 
@@ -433,7 +426,6 @@ main{
     display: flex;
     margin-top: 30px;
     padding: 20px 0;
-    
     background-color: rgb(245, 245, 245);
 }
 

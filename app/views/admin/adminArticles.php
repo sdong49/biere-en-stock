@@ -3,7 +3,7 @@
     include 'app/views/template/headAdmin.php';    
     include 'app/views/template/headerAdmin.php';
 ?>
-    <main class="admin_article">
+    <main>
 
         <p class="titre_admin">Gestion des articles</p>
         <a href="index.php?action=admin_ajout" class="bouton_admin">Ajouter un article</a>

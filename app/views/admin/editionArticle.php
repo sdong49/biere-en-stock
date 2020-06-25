@@ -7,7 +7,7 @@
     include 'app/views/template/headerAdmin.php';
 
 ?>
-    <main class="admin_article">
+    <main>
         <h1 class="titre_admin">Edition de l'article</h1>
         <a href="index.php?action=admin" class="bouton_admin">Retour</a>
         <h2 class="titre_edition"><?php echo $produit['nom']; ?></h2>
@@ -71,8 +71,7 @@
             </div>
             <input type="hidden" name="id_produit" value="<?php echo $produit['id']; ?>">
             <button type="submit" class="envoi_article">Envoyer</button>
-        </form>
-      
+        </form>  
     </main>
     <?php
         include 'app/views/template/footer.php';
