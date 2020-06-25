@@ -10,7 +10,7 @@
         <main class="container">
             <!-----------slider-------------->
             <div id="slider" class="slider">             
-                <div id="wrapper">
+                <div id="wrapper" class="slide">
                 </div>            
             </div>
             <!----------partie produit----------->

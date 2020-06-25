@@ -206,12 +206,12 @@ main{
 
 /*-----------slider----------*/
 
-#wrapper{
+.slide{
     width: 100%;
     margin:20px auto;
     
 }
-#wrapper img{
+.slide img{
     width: 100%;
 }
 
