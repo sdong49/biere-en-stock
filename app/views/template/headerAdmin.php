@@ -13,7 +13,7 @@
                     </svg>
                 </div>
                 
-                <div class="menu">
+                <div class="menu_admin">
                     <ul>
                         <li><a href="index.php?action=admin">Article</a></li>
                         <li><a href="index.php?action=adminMessage">Message</a></li>
