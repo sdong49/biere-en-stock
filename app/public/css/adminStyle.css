@@ -101,6 +101,7 @@ body{
 /*----------page articles--------------*/
 .admin_article{
     width: 80%;
+    max-width: 1250px;
     margin: 0 auto;
 }
 
@@ -132,12 +133,12 @@ body{
     margin-top: 20px;
 }
 
-.article{
+.article_de_admin{
     display: flex; 
     font-size: 0.95em;      
 }
 
-.article .img_admin{
+.article_de_admin .img_admin{
     width: 45%;
     border-bottom:solid 1px rgb(60,60,60); 
 }
@@ -146,13 +147,13 @@ body{
     max-width: 120px;   
 }
 
-.article .nom_article{
+.article_de_admin .nom_article{
     width: 15%;
     padding-top: 50px;  
    border-bottom:solid 1px rgb(60,60,60); 
 
 }
-.article .categorie_article{
+.article_de_admin .categorie_article{
     width: 15%;
     padding-top: 50px;  
     border-bottom:solid 1px rgb(60,60,60);  
@@ -172,11 +173,6 @@ body{
 }
 
 /*------------page edition et ajout d'article---------*/
-.admin_article{
-    width: 80%;
-    max-width: 1250px;
-    margin: 0 auto;
-}
 
 .titre_edition{
     margin-top: 15px;
@@ -357,14 +353,14 @@ th,td{
 
 @media screen and (min-width:576px) and (max-width:992px){
     /*------page articles----*/
-    .article{
+    .article_de_admin{
         font-size: 0.8em;
     }
 
-    .article .nom_article{
+    .article_de_admin .nom_article_de_admin{
         width: 18%;
     }
-    .article .categorie_article{
+    .article_de_admin .categorie_article{
         width: 18%;  
     }
 
@@ -430,12 +426,12 @@ th,td{
     .titre_admin{
         font-size: 1.5em;
     }
-    .article{
+    .article_de_admin{
         text-align: center;
         display: block;
 
     }
-    .article .img_admin{
+    .article_de_admin .img_admin{
         width: 100%;
         border-bottom:none;
     }
@@ -444,12 +440,12 @@ th,td{
         max-width: 120px;   
     }
     
-    .article .nom_article{
+    .article_de_admin .nom_article{
         width: 100%;
         padding-top: 30px; 
         border-bottom:none;    
     }
-    .article .categorie_article{
+    .article_de_admin .categorie_article{
         width: 100%;
         padding-top: 0;  
         border-bottom:none;

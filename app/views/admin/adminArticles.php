@@ -17,7 +17,7 @@
                 //var_dump($categorie);
                 //var_dump($produit);
                 ?>
-                <div class="article">                
+                <div class="article_de_admin">                
                     <p class="nom_article"><?php echo $produit['nom']; ?></p>
                     <p class="categorie_article"><?php echo $categorie['nom']; ?></p>
                     <p class="img_admin"><img src="<?php echo $produit['image']; ?>" class="img_admin" alt="bière"></p>
