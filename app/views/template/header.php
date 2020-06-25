@@ -16,7 +16,7 @@
             <div class="nav">
                 <!------logo------>
                 <div class="gouche_nav">
-                    <a href="index.php"><img src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/images/logo_c.jpg" alt="logo-bière en stock"></a>                    
+                    <a href="/stagiaires/saiyin-dong/biere_en_stock/accueil"><img src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/images/logo_c.jpg" alt="logo-bière en stock"></a>                    
                 </div>
                 <div class="droite_nav"> 
                     <!--menuprincipal-->
@@ -51,7 +51,6 @@
                                     <label for="password"class="objet" >Mot de passe</label>
                                     <input type="text" name="nom-utilisateur" placeholder="Votre mot de passe" id="pwd" required/><br>
                                     <span id="erreurpasswordins"></span><br>
-                                    <a href="#"class="">Vous avez oublié votre nom d'utilisateur ou mot de passe ?</a><br>
                                     <a href="index.php?action=inscription">Vous n'avez pas vous inscirit ?</a><br>
                                     <input type="submit" value="Connecter" class="bouton-connecter" id="btn-connecter"> 
                                     <input type="reset" value="Annuler" class="bouton-connecter">          
