@@ -238,15 +238,7 @@ body{
     margin: 0 auto;
 }
 
-.test{
-    transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-}
-/*style de la class 'titre_admin' est le même que la page 'adminArticle'*/ 
-table{
+.message_table{
     width: 100%;
     word-break: break-all;
 }
