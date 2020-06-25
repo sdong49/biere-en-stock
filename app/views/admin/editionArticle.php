@@ -8,8 +8,8 @@
 
 ?>
     <main class="admin_article">
-        <h1 class="titre">Edition de l'article</h1>
-        <a href="index.php?action=admin" class="bouton">Retour</a>
+        <h1 class="titre_admin">Edition de l'article</h1>
+        <a href="index.php?action=admin" class="bouton_admin">Retour</a>
         <h2 class="titre_edition"><?php echo $produit['nom']; ?></h2>
         <form action="" class="form_article" method="post">
             <div class="champ_article">

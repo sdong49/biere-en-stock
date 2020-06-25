@@ -114,9 +114,7 @@ body{
     border-bottom: solid 2px rgb(60,60,60);
 }
 
-.bouton{
-    
-    
+.bouton_admin{  
     color: rgb(255, 255, 255);
     background-color:rgb(60,60,60);
     border: none;
