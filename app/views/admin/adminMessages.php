@@ -5,7 +5,7 @@
 
         <main class="admin_message">
             
-            <h1 class="titre">Liste de message client</h1>
+            <h1 class="titre_admin">Liste de message client</h1>
             <table id="messageTable" >
             <tr>
                 <th class="info"><span class="left" onclick="asc()">↑</span>Nom<span class="right" onclick="desc()">↓</span></th>

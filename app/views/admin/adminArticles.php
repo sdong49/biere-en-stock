@@ -5,7 +5,7 @@
 ?>
     <main class="admin_article">
 
-        <p class="titre">Gestion des articles</p>
+        <p class="titre_admin">Gestion des articles</p>
         <a href="index.php?action=admin_ajout" class="bouton">Ajouter un article</a>
         <div class="liste_article">
         <!-- boucle -->

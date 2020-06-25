@@ -104,7 +104,7 @@ body{
     margin: 0 auto;
 }
 
-.titre{
+.titre_admin{
     text-align: center;
     height: 60px;
     margin-top: 30px;
@@ -251,16 +251,7 @@ body{
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
 }
-
-.titre{
-    text-align: center;
-    height: 60px;
-    margin-top: 30px;
-    font-size: 2em;
-    padding-top:55px ;
-    margin-bottom: 30px;
-    border-bottom: solid 2px rgb(60,60,60);
-}
+/*style de la class 'titre_admin' est le même que la page 'adminArticle'*/ 
 table{
     width: 100%;
     word-break: break-all;
@@ -438,7 +429,7 @@ th,td{
     }
 
     /*------page articles-----*/
-    .titre{
+    .titre_admin{
         font-size: 1.5em;
     }
     .article{
@@ -488,9 +479,7 @@ th,td{
     }
 
     /*---------page messages-----*/
-    .titre{
-        font-size: 1.5em;
-    }
+    
     th,td{
         font-size: 0.7em;
     }
