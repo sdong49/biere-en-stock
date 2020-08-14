@@ -101,7 +101,7 @@
                         
                     </article>
                 </div>
-            </sectiion>
+            </section>
         </main>
 
         <?php
