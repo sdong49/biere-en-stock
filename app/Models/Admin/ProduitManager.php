@@ -29,7 +29,6 @@ class ProduitManager extends Manager{
     }
 
     public function edite($produit){
-        //var_dump($produit);
         $id = (int)$produit['id_produit'];
         $title = $produit['title'];
         $description = $produit['description'];
@@ -40,11 +39,18 @@ class ProduitManager extends Manager{
         $degre = $produit['degre'];
 
         $bdd = $this->dbConnect();
-        $sql = "UPDATE articles SET nom='$title', description='$description', image='$image', categorie_id='$categorie', brasseur_id='$brasseur', contenance_id='$contenance', degre='$degre' WHERE id=$id";
-        $req = $bdd->query($sql);
-        //$req->execute(array($id));
-        //var_dump($req);
-       // exit;
+        $sql = "UPDATE articles SET nom=:title, description=:description, image=:image, categorie_id=:categorie, brasseur_id=:brasseur, contenance_id=:contenance, degre=:degre WHERE id=:id";
+        $req = $bdd->prepare($sql);
+        $req->execute(array(
+            'title' => $title,
+            'description' => $description,
+            'image' => $image,
+            'categorie' => $categorie,
+            'brasseur' => $brasseur,
+            'contenance' => $contenance,
+            'degre' => $degre,
+            'id' => $id
+        ));
     }
 
     public function ajout($produit){
@@ -57,9 +63,6 @@ class ProduitManager extends Manager{
         $degre = $produit['degre'];
 
         $bdd = $this->dbConnect();
-        //$sql = "INSERT INTO articles (nom, image, degre, description , categorie_id, brasseur_id, contenance_id) VALUES ('$title', '$image', '$degre', '$description', '$categorie', '$brasseur','$contenance')";
-        $req = $bdd->query($sql);
-        //var_dump($req);
 
         $req = $bdd->prepare("INSERT INTO articles (nom, image, degre, description , categorie_id, brasseur_id, contenance_id) VALUES (:title,:image,:degre,:description,:categorie,:brasseur,:contenance)");
         $req->execute(array(
