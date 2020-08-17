@@ -29,18 +29,18 @@ Fabriqué avec
     
     
     html :
-    •	Balise svg : Logo administration, source app/views/template/headerAdmin.php, ligne 7
+    •	Balise svg : Logo administration, source app/views/template/headerAdmin.php
     
     CSS :
     •	Tous les mediaqueries 
-    •	Les animations : page d’accueil section « Nos produits », source app/public/css/style.css, ligne 252 
+    •	Les animations : page d’accueil section « Nos produits », source app/public/css/style.css
     •	Mise en page en flexbox
 
     
     JS :
     •	Utilisation de jquery 
     •	Requête http Ajax avec jquery : Sorting « Liste des messages client » par Nom, 
-        source app/views/admin/adminMessage.php, ligne 38
+        source app/views/admin/adminMessage.php
     •	Api rest : Page « Formulaire de contact » saisie dynamique de champ  « Adresse », source app/views/contact.php
     •	Gestion d'évènements autres que le click souris : Page « Formulaire de contact » saisie dynamique de champ 
         « Adresse », source app/views/contact.php
