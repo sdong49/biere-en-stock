@@ -9,15 +9,13 @@
         <main>
             <!--------------formulaire-------------->
                 <p class="titre">Formulaire de contact</p>
-                <p>Vous ne trouvez pas la réponse que vous cherchez ? Notre service client est là pour vous aider, de 9h à 18h du lundi au vendredi.</p>
-                <br>
-                <p>APPELEZ-NOUS au 02 22 22 22 22 (prix d’un appel local).</p> 
-                <br>
-                <p>Vous pouvez également nous contacter par email en remplissant le formulaire ci-dessous.</p>    
-               
+                <div class="info_contact">
+                    <p>Vous ne trouvez pas la réponse que vous cherchez ? Notre service client est là pour vous aider, de 9h à 18h du lundi au vendredi.</p>
+                    <p>APPELEZ-NOUS au 02 22 22 22 22 (prix d’un appel local).</p>
+                    <p>Vous pouvez également nous contacter par email en remplissant le formulaire ci-dessous.</p>
+                </div>
                 <?php if(isset($message)){
                          if(array_key_exists("ok",$message)){ ?>
-                            <br>
                             <div class="message_succes">
                                 <?php echo $message['ok']; ?>
                          </div>
@@ -34,27 +32,29 @@
                     <fieldset>
                         <legend>Vos coordonnées</legend>
                             <div class="gerne">
-                                <input type="radio" name="gerne" value="m." id="m."/>
+                                <input type="radio" name="m." value="m." id="m."/>
                                 <label for="m.">M.</label>
-                                <input type="radio" name="gerne" value="mme" id="mme"/>
+                                <input type="radio" name="mme" value="mme" id="mme"/>
                                 <label for="mme">Mme</label>
                             </div>
                             <div class="colonnes">
                                 <div class="colonne">
                                     <p><label for="nom">Votre nom*</label>
-                                        <input type="text" name="nom" required/>
+                                        <input type="text" name="nom" id="nom" required/>
                                     </p>
                                     <p><label for="email">Votre email*</label>
-                                        <input type="text" name="email" required/>
+                                        <input type="text" name="email"  id="email" required/>
                                     </p>
                                 </div>
                                 <div class="colonne">
-                                    <p><label for="prenom">Votre prénom*</label>
-                                        <input type="text" name="prenom" required/> 
-                                    </p>  
-                                    <p><label for="tel">Votre téléphone*</label>
-                                        <input type="tel" name="tel" required/>
-                                    </p>                    
+                                    <div>
+                                        <label for="prenom">Votre prénom*</label>
+                                        <input type="text" name="prenom" id="prenom" required/>
+                                    </div>
+                                    <div>
+                                        <label for="tel">Votre téléphone*</label>
+                                        <input type="tel" name="tel" id="tel" required/>
+                                    </div>
                                 </div> 
                             </div>              
                             <p class="adresse">
@@ -94,44 +94,9 @@
 
         <!-------- chargement de la fiche script --------->
         <script type="text/javascript" src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/js/modal.js"></script>
-        <!-- <script type="text/javascript" src="app/public/js/geoapi.js"></script> -->
+
+        <script type="text/javascript" src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/js/geoapi.js"></script>
         
-        <script>
-            function getAddress() {
-                    
-                    let ul = document.getElementById("address_list");
-                    ul.innerHTML = "";
-                
-                    let input = document.getElementById("address").value;
-                
-                    
-                    
-                    fetch("https://api-adresse.data.gouv.fr/search/?q="+input)
-                    .then(function(response) {
-                        return response.json();
-                    })
-                    
-                    .then(function(json) {
-                        // console.log(json.features[0].properties.label);
-                        for(let i = 0; i<5; i++){
-                            let address_find = document.createElement("li");
-                            address_find.innerText = json.features[i].properties.label;
-                            // console.log(adresse_trouve);
-                            document.getElementById("address_list").appendChild(address_find);
-                
-                            $(document).ready(function(){
-                                $('li').css('margin-left','15px');
-                                $('li').on('click',function(){
-                                    $('#address').val($(this).text()); 
-                                    $('li').css('display','none')       
-                                });
-                                
-                            });    
-                
-                        };
-                    });   
-                
-                };     
-        </script>
-    </body>
+
+   </body>
 </html>
