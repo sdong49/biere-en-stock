@@ -45,13 +45,15 @@
                             <!-- Modal body -->
                             <div class="modal-body">
                                 <form>
-                                    <label for="nom-utilisateur" class="objet">Adresse email</label>
-                                    <input type="text" name="nom-utilisateur" placeholder="Votre adresse email" id="emailins" required/><br>
-                                    <span id="erreuremailins"></span><br>
-                                    <label for="password"class="objet" >Mot de passe</label>
-                                    <input type="text" name="nom-utilisateur" placeholder="Votre mot de passe" id="pwd" required/><br>
-                                    <span id="erreurpasswordins"></span><br>
-                                    <a href="index.php?action=inscription">Vous n'avez pas vous inscirit ?</a><br>
+                                    <div>
+                                        <label for="emailins" >Adresse email</label>
+                                        <input type="text" name="emailins" placeholder="Votre adresse email" id="emailins" required/>
+                                    </div>
+                                    <div class="connecte_mdp">
+                                        <label for="pwd">Mot de passe</label>
+                                        <input type="text" name="pwd" placeholder="Votre mot de passe" id="pwd" required/>
+                                    </div>
+                                    <p><a href="index.php?action=inscription">Vous n'avez pas vous inscirit ?</a></p>
                                     <input type="submit" value="Connecter" class="bouton-connecter" id="btn-connecter"> 
                                     <input type="reset" value="Annuler" class="bouton-connecter">          
                                 </form>

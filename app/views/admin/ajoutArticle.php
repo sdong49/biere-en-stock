@@ -8,18 +8,18 @@
             <a href="index.php?action=admin" class="bouton_admin">Retour</a>
             <form action="" class="form_article" method="post">
                 <div class="champ_article">
-                    <label for="title">Title</label><br>
-                    <input type="text" name="title">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title">
                 </div>
 
                 <div class="champ_article">
-                    <label for="description">Description</label><br>
+                    <label for="description">Description</label>
                     <textarea name="description" id="" ></textarea>
                 </div>
 
                 <div class="champ_article">
-                    <label for="image">Image</label><br>
-                    <input type="text" name="image">
+                    <label for="image">Image</label>
+                    <input type="text" name="image" id="image">
                 </div>
 
                 <div class="champ_article">
@@ -51,7 +51,7 @@
             
                 <div class="champ_article">
                     <label for="degre">Degré</label>
-                    <input type="text" name="degre" class="degre">
+                    <input type="text" name="degre" id="degre" class="degre">
                 </div>
                 <input type="hidden" name="ajout_produit" value="true">
                 <button type="submit" class="envoi_article">Envoyer</button>              

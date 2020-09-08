@@ -13,18 +13,18 @@
         <h2 class="titre_edition"><?php echo $produit['nom']; ?></h2>
         <form action="" class="form_article" method="post">
             <div class="champ_article">
-                <label for="title">Title</label><br>
-                <input type="text" name="title" value="<?php echo $produit['nom']; ?>" >
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title" value="<?php echo $produit['nom']; ?>" >
             </div>
 
             <div class="champ_article">
-                <label for="description">Description</label><br>
+                <label for="description">Description</label>
                 <textarea name="description" ><?php echo $produit['description']; ?></textarea>
             </div>
 
             <div class="champ_article">
-                <label for="image">Image</label><br>
-                <input type="text" name="image" value="<?php echo $produit['image']; ?>" >
+                <label for="image">Image</label>
+                <input type="text" name="image" id="image" value="<?php echo $produit['image']; ?>" >
             </div>
 
             <div class="champ_article">
@@ -67,7 +67,7 @@
             </div>
             <div class="champ_article">
                 <label for="degre">Degré</label>
-                <input type="text" name="degre" class="degre" value="<?php echo $produit['degre']; ?>">
+                <input type="text" name="degre" id="degre" class="degre" value="<?php echo $produit['degre']; ?>">
             </div>
             <input type="hidden" name="id_produit" value="<?php echo $produit['id']; ?>">
             <button type="submit" class="envoi_article">Envoyer</button>

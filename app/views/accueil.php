@@ -53,8 +53,7 @@
                         <div class="bloc-actu">
                                 <h3>Titre 1</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Quisque sapien velit, aliquet eget commodo nec 
-                                    <br>
+                                    Quisque sapien velit, aliquet eget commodo nec
                                 </p>
                                 <a href="#"class="bouton">Je découvre</a>            
                         </div> 
@@ -80,7 +79,6 @@
                                 <h3>Titre 3</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                     Quisque sapien velit, aliquet eget commodo nec
-                                    <br>
                                 </p>
                                 <a href="#"class="bouton">Je découvre</a>            
                         </div> 
@@ -93,8 +91,7 @@
                         <div class="bloc-actu">
                                 <h3>Titre 4</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Quisque sapien velit, aliquet eget commodo nec 
-                                    <br>
+                                    Quisque sapien velit, aliquet eget commodo nec
                                 </p>
                                 <a href="#"class="bouton">Je découvre</a>            
                         </div> 
@@ -111,7 +108,7 @@
         <!----- jQuery ----->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-        <!-------- chargement de la fiche script Slider --------->
+        <!-------- chargement de la fiche script Slider et modal--------->
         <script type="text/javascript" src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/js/slider.js"></script>
         <script type="text/javascript" src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/js/modal.js"></script>
     

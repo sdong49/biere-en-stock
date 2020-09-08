@@ -28,7 +28,7 @@
                             <img src="<?php echo $cat_image; ?>" alt="biere assortiment fût">                                                                                    
                         </div>
                         <div class="categorie_r">
-                            <h2><?php echo $cat_nom; ?></h2><br>
+                            <h2><?php echo $cat_nom; ?></h2>
                             <p><?php echo $cat_description; ?></p>
                         </div>
                     </section>
@@ -38,7 +38,7 @@
                                 <img src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/images/page_produit_20.jpg" alt="tous nos produits">
                             </div>
                             <div class="categorie_r">
-                                <h2>Tous nos produits</h2><br>
+                                <h2>Tous nos produits</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget 
                                     commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. 
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat sem at mauris suscipit porta. 

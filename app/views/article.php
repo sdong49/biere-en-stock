@@ -26,7 +26,7 @@
                     $histoire_brasseur = $brasseur['histoire'];
                     //$categorie = $produit['categorie'];
                 ?>
-                    <h2><?php echo $nom; ?></h2><br>
+                    <h2><?php echo $nom; ?></h2>
                     <p><?php echo $description; ?></p>
                     <table>
                         <?php if($brasseur && $brasseur['nom'] != 'Ignorer'){ 
