@@ -31,29 +31,7 @@
             include 'app/views/template/footer.php';
         ?>
 
-        
-        <script>
-            function asc(){
-                $.ajax({
-                    url:'index.php?action=adminMessageAsc',
-                    type:'GET',
-                    success: function(response){
-                        $("#messageTable tr:not(:first)").remove();
-                        $("#messageTable").append(response);
-                    }
-                });
-            }
-
-            function desc(){
-                $.ajax({
-                    url:'index.php?action=adminMessageDesc',
-                    type:'GET',
-                    success: function(response){
-                        $("#messageTable tr:not(:first)").remove();
-                        $("#messageTable").append(response);
-                    }
-                });
-            }
-        </script>
+<!--        <script type="text/javascript" src="app/public/js/sortByName.js"></script>-->
+        <script type="text/javascript" src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/js/sortByName.js"></script>
     </body>
 </html>
