@@ -567,7 +567,7 @@ main{
     margin: 5px 10px;  
 }
 
-.colonnes .colonne p{
+.colonnes .colonne div{
     margin-top: 15px; 
 }
 .adresse{

@@ -39,12 +39,14 @@
                             </div>
                             <div class="colonnes">
                                 <div class="colonne">
-                                    <p><label for="nom">Votre nom*</label>
+                                    <div>
+                                        <label for="nom">Votre nom*</label>
                                         <input type="text" name="nom" id="nom" required/>
-                                    </p>
-                                    <p><label for="email">Votre email*</label>
+                                    </div>
+                                    <div>
+                                        <label for="email">Votre email*</label>
                                         <input type="text" name="email"  id="email" required/>
-                                    </p>
+                                    </div>
                                 </div>
                                 <div class="colonne">
                                     <div>
