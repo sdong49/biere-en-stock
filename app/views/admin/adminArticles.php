@@ -28,21 +28,17 @@
                 </div>
         <?php } ?>
         </div>
-            <script> 
-                function supprimer() { 
-                    let msg = "Voulez-vous supprimer ce produit?\n\nMerci de confirmer！"; 
-                    if (confirm(msg)==true){ 
-                        return true; 
-                    }else{ 
-                        return false; 
-                    } 
-                } 
-            </script> 
+
             
     </main>
     <?php
         include 'app/views/template/footer.php';
     ?>
-    
+
+
+
+<!-------- chargement de la fiche script --------->
+
+<script type="text/javascript" src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/js/confirmationSupprimeArticle.js"></script>
 </body>
 </html>

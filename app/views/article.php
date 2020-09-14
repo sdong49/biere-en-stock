@@ -109,21 +109,8 @@
 
         <!-------- chargement de la fiche script --------->
         <script type="text/javascript" src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/js/modal.js"></script>
-        <!-----jQuery de la partie "notices" -->            
-        <script>
-            $(function()
-            {
-                $('.notices_hd1').on('click',function(){
-                    $('.notices_bd1, .notices_hd1').addClass('active');
-                    $('.notices_bd2, .notices_hd2').removeClass('active');
-                });
-                $('.notices_hd2').on('click',function(){
-                    $('.notices_bd2, .notices_hd2').addClass('active');
-                    $('.notices_bd1, .notices_hd1').removeClass('active');
-                });
+        <!-----jQuery de la partie "notices" -->
+        <script type="text/javascript" src="http://www.greta-bretagne-sud.fr/stagiaires/saiyin-dong/biere_en_stock/app/public/js/noticeArticle.js"></script>
 
-            });
-            
-        </script>
     </body>
 </html>
